@@ -1,0 +1,126 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{ifpdf}
+\usepackage{mla}
+
+\usepackage{blindtext}
+
+\begin{document}
+\begin{mla}{Theodore}{Jones}{}{}{}{\textbf{Why is there Cross-Species Variation in Cancer Rates in Fast Growing Tissues?}}
+\noindent \textbf{Abstract} \\
+There is substantial variation in cancer rates between species. This is particularly stark when the rates of cancer in fast growing tissues are taken into account. A naive prediction of cancer rates would suggest that consistently and across species the rates of cancer would be very high in these tissues and would also be high in larger animals. Neither conclusion is true. This project will look into why cross species cancer rates behave in a counterintuitive way. \\
+I focus on reviewing the published literature and data sets around this issue, and will look into how models of cancer risk have been used to account for these variations in cancer rates. I will discuss research on whether tumor resistance genes are more common in species with unexpectedly low can cancer rates. In general, the selective pressure for cancer suppression genes becomes stronger 1) as the number of cells increases, and 2) as the number of cell divisions in the lineage increases. A tumour suppressing adaptation which has the effect of increasing the number of mutations required for cancer to develop will have a large effect in reducing cancer risk, and allowing for increased size of the animal, and will reduce cancer in fast growing tissues.  There some empirical evidence to suspect that, as these models would predict, the number of cancer resistance genes is higher in larger animals and in faster growing tissues.The available data hints at a number of solutions, but there is no clearly conclusive solution to the cross-species cancer risk issue.  \newpage
+
+\noindent \textbf{Introduction} \\
+
+There is substantial variation in cancer rates between species. Increased cancer rates do not increase based on body size or other similar characteristics (an observation referred to by some authors as Peto’s paradox. (Caulin 2015) This is particularly stark when the rates of cancer in fast growing tissues are taken into account. A naive prediction of cancer rates would suggest that consistently and across species the rates of cancer would be very high in these tissues. This is not necessarily true. Take the rates of cancer in bone as an example. In humans, bone cancer is not an exceedingly common cancer, but it results in around 3000 new cases per year in the United States (Franchi 2012). Some of the elements of the bone structure are fairly fast growing. In humans the lifespan of a bone osteoclast cell is around two weeks. In moose (Moen 1998), deer (Price 2005) and other antlered animals this growth rate is even higher, and these issues are capable of undergoing extremely fast regeneration. However, bone cancer rates are very low in these animals (Williams 1989). This is an unexpected occurrence because within a species, fast growing tissues have the highest rates of cancer, and there is a strong correlation between the renewal rate of a tissue and its susceptibility to cancer (Frank 2007). Similar cross species variations in cancer rates have been observed in other tissues that can undergo fast growth (ie. breast, bone marrow).This difference in cancer rates in bone between deer and moose when compared to other species is lacking a clear explanation. 
+
+This phenomenon has relevance to a number of practical issues, involving both medical treatments, and research into the causes of cancer. Explaining the cause of these lower cancer rates could have relevance to treating or preventing cancer in humans, or relevance to discovering the root causes of cancer. An explanation of this fact could also be relevant to explaining growth of tissues, and cellular regeneration (see for instance Price et al.). This aspect is particularly relevant to medical uses because the mechanism by which the cancer resistance of larger animals and animals with unusually fast growing tissues occurs could be applied to the possible design of therapies for cancer. 
+
+\textbf{Methods} \\
+
+I will focus on reviewing the published literature and data sets around this issue. In particular, I will look into three issues surrounding cross species cancer risks.  I will look into the application of the role that selective pressures have on cancer resistance and some of its potential mechanisms, in large part through discussing modeling-based methods, such as those mentioned in (Caulin 2015) and (Nunney 1999). I will discuss research on whether tumor resistance genes are more common in species with unexpectedly low can cancer rates. If they play a key role in cancer resistance then they should be more common. This involves studies producing databases of gene function such as the one in (Higgins). I will also look into how other physical mechanisms such as improved DNA repair mechanisms can effect cross-species cancer rates. If they play a role, then they should be more complex in organisms with low cancer rates. Additionally, I will analyze how stem cell growth varies across species in relation to cancer rates.  \\
+
+\noindent \textbf{Results} \\
+A number of studies have tried to analyze other reasons reasons behind variation in cross-species cancer rates. The results of (Caulin 2015) suggest that the variation may be because of variation in the prevalence of tumour-suppressor genes, and selection for such genes. Similar evolutionary hypothesizes have been suggested by (Nunney 2013), and (Nunney 1999). There is both modeling-based and observational evidence for this hypothesis. Tumour suppressor genes are common (Higgens 2007) and there are a number of mechanisms through which additional tumor resistance genes could be favored. Improved DNA repair mechanisms have also been suggested as a mechanism for these differences (Peto 1977). Variations in stem cell growth have also been suggested as a mechanism by (Cairns 1975) and (DeGregori 2011). \\
+
+A common method of modeling cancer risks analytically works by calculating the the number of somatic cell mutations needed to cause a regularly functioning somatic cell to turn into a cancer cell. A mutation that brings a cell towards a cancer state is often referred to as a "hit" (Nuney 1999). To convert into a cancer cell a regularly functioning cell needs to produce mutations that cause a requisite number of hits. These models tend to showcase the extent to which tumour suppressing genes can cause a decline in cancer rates. 
+
+(Caulin 2015) discusses two such models, a Calabrese–Shibata model based on (Calabrese 2010), and a Wright–Fisher model based on (Beerenwinkel 2007). The models were developed to model colon cancer rates. The Calabrese–Shibata model is considered by the authors of (Caulin 2015) to better model the effect that mutation rates have on cancer risk. The Wright–Fisher model is considered to better model the effect that a change in the number of required hits can have on cancer rates. 
+
+Under the Calabrese–Shibata model cancer risks can be modeled based on the following equation $p = 1 - (1 - (1 - (1 - u)^d )^k )^{nm}$, where $p$ is the probability that an individual will get cancer, $u$ is the per gene mutation rate, $k$ is the number of hits required, and $d$ is the number of stem cell divisions that occur per individual, and $m$ and $n$ are related to the number cells present in the individual, and their rates of growth. (Calabrese 2010) (Caulin 2015) A reduction in mutation rates has a strong effect on cancer risk. A 3.2x change in mutation rates can have the same effect as a 1000x change in the number of cells. (Caulin 2015) This strongly indicates that attributes which serve to reduce mutation risk can have a strong tumour suppression role. According to the Wright–Fisher model an individual can be expected to get cancer after a time of $t_k$ where $t_k = k \frac{log(\frac{s}{ud})^2}{s log(N_i N_f) }$. $k$ is the number of hits required, d is the number of genes, u is the mutation rate, s is the selective advantage that the cancer cell obtains, and $N_i$ and $N_f$ and related to the cell population size over the lifespan of the lineage (Beerenwinkel 2007). This model indicates that increasing $k$ by 1 can offset a 1000x increase in the number of cells in the organism. This indicates that a tumour suppressing adaptation which has the effect of increasing the number of hits required for cancer to develop will have a large effect in reducing cancer risk, and allowing for increased size of the animal. 
+
+(Nunney 1999) and (Nuney 2013) model and discuss the effect that selective pressures have on the development of cancer suppression genes. The model predicts that the selective pressure for cancer suppression genes becomes stronger 1) as the number of cells increases, and 2) as the number of cell divisions in the lineage increases. This increased selective pressure could serve to offset some of the negative pressures that occur in slower dividing tissues. This means that animals with faster diving tissues and larger animals should be expected to have more cancer suppressing genes, and reinforces the conclusions of the previously discussed models of cancer rates. 
+
+There is some empirical evidence for these models, but the empirical evidence is mixed on this issue. According to (Higgens 2007) there are 830 human genes that serve primarily to suppress tumors. There is some evidence that larger animals have relevant cancer suppression genes.  However, as per (Caulin 2015), there is little correlation between number of tumour suppression genes and body mass. However, there is strong evidence that $k$ -- the number of hits required to turn a cell lineage into a cancerous one -- is noticeably higher in larger animals. This relates to proto-oncogenes.  \\
+
+Another possible mechanism is that, while the number of cancer suppressing genes, and proto-onco genes does not vary strongly across body sizes, the exact action of these genes does vary, and this causes the reduced cancer rates (Gewin 2013). There is some support for the idea.  There is likely strong variation between species in the activation of these genes. Larger animals tend to have more active tumour suppression and proto-oncogenes (Roche 2013). This fits well with the models predicting a strong role of selective pressures in favor of preventing cancer.
+
+According to (Cairns 1975) changes in stem cell division can result in the segregation of old and new cell lineages. Because the effect of mutations on cancer is cumulative and a number of distinct mutations are required to create cancer, this can result in lower cancer rates. Such mechanisms can also be used to reduce competition between various cell lineages over growth. This limits the advantage of pre-cancer mutations that make a cell lineage grow faster at the expense of other lineages, but which are not yet full cancer. (DeGregori 2011) discusses the relationship between stem cell growth patterns and cancer rates. He considers the evolution of anti-cancer mechanisms as a prerequisite of large body sizes. Differential maintains of stem cell lineages might play a role in reduced cancer risks. Most stem cells divide only slowly, and limiting the number of available lineages could serve to reduce the probability that a chain of mutations that produces cancer could take effect. This also contains mutations and limits selection for adverse mutations by limiting the effective population size of the population of stem cell lineages. This limitation increases genetic drift on the population but reduces selective pressures. This means that more nearly neutral, slightly deleterious, mutations will be added to the lineage. But pre-cancer genes will be less strongly selected for. This mechanism could also strongly reduce the effect of carcinogens. 
+
+DNA repair mechanisms are one way that the effect of reduced mutation rate on cancer rates can be used by an organism. (Peto 1977) suggests that differences in DNA repair mechanisms may contribute to differences in cross-species cancer rates. (Dietlein)
+
+
+\textbf{Discussion} \\
+The modeling methods provide a novel way to explain the lack of correlation between tissue growth rates, body size and cancer rates. These methods result in the possibility that a selective pressure towards increased cancer resistance resulted in the unusually low cancer rates in large animals and in fast growing tissues. The models suggest that there are strong selective pressures in favor of increased cancer resistance, and reduced mutation rates in larger animals
+ However, the empirical evidence for these models is mixed. There some empirical evidence to suspect that, as these models would predict, the number of cancer resistance genes is higher in larger animals and in faster growing tissues. However, the increased number of suppression genes that one would expect based on the modeling methods is not necessarily present, as some of the data is contradictory. Other possible mechanisms also have support but less modeling evidence exists for these hypotheses. Biological mechanisms through which this cancer risk reduction could take effect include variation in proto-onco genes, variations in cell growth patterns, and DNA repair.
+ It is possibly that the predicted selective pressure could take the form of lower mutation rates or more effective cancer resistance genes (instead of a higher number of them). The available data hints at a number of solutions, but there is no clearly conclusive solution to the cross-species cancer risk issue. 
+
+
+\newpage
+\noindent \textbf{References}\\
+\setlength{\parindent}{0pt}
+Beerenwinkel N, Antal T, Dingli D, Traulsen A, Kinzler KW, Velculescu VE, Vogelstein B, Nowak MA. 2007 Genetic progression and the waiting time to cancer. PLoS Comput. Biol. 3, e225. 
+\emph{Develops a mathematical model of cancer risks. Useful for comparing how variations in the minimum number of hits required can reduce cancer risks}
+
+Caulin, Aleah F., et al. “Solutions to Peto’s paradox revealed by mathematical modelling and cross-species cancer gene analysis.” Phil. Trans. R. Soc. B 370.1673 (2015): 20140222.\\
+
+\emph{Suggests that the variation may be because of variation in the prelevance of tumour-suppressor genes, and selection for such genes}\\
+
+Calabrese P, Shibata D. 2010 A simple algebraic cancer equation: calculating how cancers may arise with normal mutation rates. BMC Cancer 10, 3. \\
+
+\emph{Develops a mathematical model of cancer risks, usefull for relating mutation rates to cancer risks}
+
+Cairns, John. “Mutation selection and the natural history of cancer.” Nature 255.5505 (1975): 197–200.\\
+
+\emph{Highlights the role of mutation in rapidly growing tissues such as gut lining cells, and argues that changes in stem cell division have a role in mitigating cancer rates.}\\
+
+DeGregori, James. “Evolved tumor suppression: why are we so good at not getting cancer?.” Cancer research 71.11 (2011): 3739–3744.\\
+
+\emph{Discusses the role that selective pressure on stem cell growth mechanisms can have on cancer rates, with application to both cross-species and age based cancer rate variation}\\
+ \newpage
+Dietlein, Felix, Lisa Thelen, and H. Christian Reinhardt. "Cancer-specific defects in DNA repair pathways as targets for personalized therapeutic approaches." Trends in Genetics 30.8 (2014): 326-339. \\
+\emph{DNA repair as a key pathway for cancer risk}
+
+Gewin, V. "Massive animals may hold secrets of cancer suppression." Nature (2013). \\
+\emph{Looks into factors relating to reduced cancer risks} \\
+
+
+Price, Joanna S., et al. “Deer antlers: a zoological curiosity or the key to understanding organ regeneration in mammals?.” Journal of Anatomy 207.5 (2005): 603–618.\\
+
+\emph{Discusses deer antler growth rates and their general connection to cellular regeneration}\\
+
+Frank SA. Dynamics of Cancer: Incidence, Inheritance, and Evolution. Princeton (NJ): Princeton University Press; 2007. Chapter 12, Stem Cells: Tissue Renewal. \\
+\emph{
+Discusses rates of cancer in different tissues and notes that 90 percent of human cancers happen in fast growing epithelial tissues}\\
+
+Franchi, Alessandro. “Epidemiology and Classification of Bone Tumors.” Clinical Cases in Mineral and Bone Metabolism 9.2 (2012): 92–95\\
+
+\emph{Incidence rates of bone cancer}
+
+Higgins, Maureen E., et al. “CancerGenes: a gene selection resource for cancer genome projects.” Nucleic acids research 35.suppl 1 (2007): D721-D726. \\
+
+\emph{Catalogues 830 human genes that serve primarily to suppress tumors}\\
+
+Pike, Beverley L., and William A. Robinson. “Human bone marrow colony growth in agar-gel.” Journal of cellular physiology 76.1 (1970): 77–84. \\
+
+\emph{Study of bone marrow cell growth rates and comparison of these rates with those of mice bone marrow cells} \\
+
+Peto, Richard. “Epidemiology, multistage models, and short-term mutagenicity tests.” Origins of human cancer 4 (1977): 1403–1428.\\
+\emph{Suggests that differences in DNA repair mechanisms may contribute to differences in cross-species cancer rates}
+
+Roche, Benjamin, et al. "Peto's paradox revisited: theoretical evolutionary dynamics of cancer in wild populations." Evolutionary applications 6.1 (2013): 109-116.
+\emph{Looks into differences in tumour-suppressor genes and proto-oncogenes between species particularly in regard to their action}
+
+Moen, Ron, John Pastor, and A. Pastor. “A model to predict nutritional requirements for antler growth in moose.” Alces 34.1 (1998): 59–74. \\
+\emph{Discusses moose antler growth rates and their nutritional requirements}
+
+Nunney, Leonard. “The real war on cancer: the evolutionary dynamics of cancer suppression.” Evolutionary applications 6.1 (2013): 11–19.
+
+\emph{Suggests that cross species cancer rates are derived based on selective pressures for increased cancer resistance} \\
+
+Nunney, Leonard. “Lineage selection and the evolution of multistage carcinogenesis.” Proceedings of the Royal Society of London B: Biological Sciences 266.1418 (1999): 493–498. \\
+
+\emph{Argues that cross species cancer rates are set by increased lineage selection on variants with low cancer rates, when the cancer resistance would not have been strongly selected for previously} \\
+
+Manolagas, Stavros C. “Birth and death of bone cells: basic regulatory mechanisms and implications for the pathogenesis and treatment of osteoporosis 1.” Endocrine reviews 21.2 (2000): 115–137. \\
+
+\emph{States the rate of replacement of an human osteoclast cell as two weeks}\\
+\newpage
+Williams, E. S., E. T. Thorne, and I. J. Yorgason. “Cranial osteochondroma in a white-tailed deer (Odocoileus virginianus).” Journal of wildlife diseases 25.2 (1989): 258–261. \\
+
+\emph{Case report of a cranial bone tumor in a deer which resulted in the death of the deer, notes the extreme rareness of bone tumors, both cancer and benign. The paper claims that this form of tumor has not been previously reported in a cervid (deer,moose,or elk)}
+
+\end{mla}
+\end{document}
