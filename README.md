@@ -8,5 +8,3 @@ The `writingsamplefirstyearproject` writing sample is a paper I wrote as part of
 The `writingsampleit` writing sample is a example of my ability to write a technical tutorial.
 
 The `writingsamplescientific` writing sample is an example of my biology/scientific writing. 
-
-The `resumetheodorejoneswriting` sample is a resume of mine. 
